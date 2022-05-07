@@ -112,18 +112,21 @@ height: 667px;
     width:1440px;
     height: 1400px;
     background-color: #999DA0;
+    
 }
 
-.cards{
-    margin: 0 auto;
-    max-width: 1000px;
+ .cards{
+    margin:0 auto;
+    max-width: 800px;
+    max-height: fit-content;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     font-family: "Actor";
-    margin-top: 400px;
-    margin-bottom: 200px;
+    margin-top: 300px;
+    margin-bottom:200px;
     margin-right: 300px;
+    
 }
 .card{
     box-shadow: 0 0 3px rgba(0, 0 , 0 , 0.1);
@@ -134,12 +137,13 @@ height: 667px;
     display: block;
 }
 .card_content{
-    line-height: 1.5;
+    line-height: 2.0;
     font-size: 0.9em;
     padding: 15px;
     background: white;
 }
 .card_info{
+    line-height: 1.5;
     padding: 30px;
     display: flex;
     justify-content:space-around;
@@ -147,7 +151,10 @@ height: 667px;
     background: white;
     border-bottom: 3px;
     border-color: gray;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 .material-symbols-outlined{
     font-size: 0.9em;
 }
+ 

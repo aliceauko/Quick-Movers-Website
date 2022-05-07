@@ -3,6 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
 
+
+<style>
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+</style>
+
+
 *{  
     margin: 0;
     padding: 0;
@@ -64,6 +76,9 @@ nav >ul >li{
 /* Second section */
 #sectme{
     margin-top: 50px;
+    height: 667px;
+    background-color: white;
+    width: 1440px;
 }
 #sectme > .boutme{
 display: flex
@@ -77,7 +92,7 @@ display: flex
     align-items: center;
 }
 #sectme > .boutme > .rightside{
-    padding-left: 100px;
+    padding-left: 350px;
     padding-top: 200px;
 }
 h1{
@@ -91,4 +106,48 @@ p{
 img{
  width: 675px;
 height: 667px;
+}
+
+#third{
+    width:1440px;
+    height: 1400px;
+    background-color: #999DA0;
+}
+
+.cards{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    font-family: "Actor";
+    margin-top: 400px;
+    margin-bottom: 200px;
+    margin-right: 300px;
+}
+.card{
+    box-shadow: 0 0 3px rgba(0, 0 , 0 , 0.1);
+}
+.card_image{
+    width: 366px;
+    height: 244px;
+    display: block;
+}
+.card_content{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: white;
+}
+.card_info{
+    padding: 30px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background: white;
+    border-bottom: 3px;
+    border-color: gray;
+}
+.material-symbols-outlined{
+    font-size: 0.9em;
 }

@@ -56,22 +56,60 @@ nav >ul >li{
     color: white;
    
 }
+
+#first nav ul li a:hover{
+    color: #FAFF00;
+}
+
+#first nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
 .kwanza{
     margin-bottom: 20px;
     margin-left:105px;
     margin-top: 70px;
 }
+
 .kwanza > h1{
     font-size: 55px;
     color: #FAFF00;
     font-family:'Adamina';
     
 }
+
 .kwanza >p{
     font-size: 25px;
     color:#999DA0;
     font-family:'Poppins';
     margin-top: 85px;
+}
+
+button{
+    padding: 10px;
+    background-color:#FFAC12 ;
+    border-radius: 10px;
+    border-color:#FFAC12 ;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: antiquewhite;
+    color: aqua;
+}
+
+.black{
+    border-top-right-radius: 10px; 
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-color: black;
+    padding-right: 80px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+
 }
 
 
@@ -83,36 +121,43 @@ nav >ul >li{
     height: 667px;
     background-color: white;
     width: 100%;
-    
 }
+
 #sectme > .boutme{
 display: flex
 }
+
 #sectme > .boutme > .leftside, .rightside{ 
     width: 50%;
 }
+
 #sectme > .boutme > .leftside{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 #sectme > .boutme > .rightside{
     padding-left: 100px;
     padding-top: 200px;
 }
+
 h1{
     font-family: 'Actor';
     font-weight: 500;
     font-size: 60px;
 }
+
 p{
     font-size: 20px;
 }
+
 img{
  width: 675px;
 height: 667px;
 }
 
+/* Third section */
 #third{
     width:100%;
     height: 1400px;
@@ -178,6 +223,8 @@ height: 667px;
      justify-items: center;
      padding-top: 100px;
  }
+
+ /* Footer section */
 
  .row{
        display: flex;

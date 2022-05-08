@@ -205,7 +205,10 @@ padding-left:  180px;
     background-color: white;
     
 }
-
+.can h3{
+    padding-top: 10px;
+    padding-left: 20px;
+}
 
 .can .card_inf {
     display:flex;

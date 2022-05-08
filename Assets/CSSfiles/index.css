@@ -208,7 +208,7 @@ height: 667px;
     background: white;
     border-bottom: 3px;
     border-color: gray;
-    border-bottom-left-radius: 25px;
+    border-bottom-left-radius:  25px;
     border-bottom-right-radius: 25px;
 }
 .material-symbols-outlined{

@@ -57,7 +57,8 @@ aukoalice@gmail.com |  |
  [Go back to the top](#Quick movers website)
 
 ### Live Link
--Click the live link at the about section in the main branch
+-Click the link below
+https://aliceauko.github.io/Quick-Movers-Website/
 
 
 ###Technology Used
